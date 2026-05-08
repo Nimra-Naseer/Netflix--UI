@@ -13,8 +13,9 @@ It includes different genres with a focus on **romantic ❤️** and **Islamic �
 - 🌙 Islamic-themed content section
 - 🎨 Clean and modern Netflix-like design
 
-## 🚀 Purpose
-To practice frontend design skills and create a visually appealing streaming platform UI concept.
+## 🚀 Future Plans
+- Make it responsive
+- Add Java Script
 
 ## 🛠️ Tech Stack
 - HTML
