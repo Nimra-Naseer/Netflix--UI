@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website title -->
+    <title>Netflix</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-black w-full">
+    <!-- UPPER SECTION  -->
+    <div class="flex flex-row justify-between text-white w-full p-4">
+
+        <!-- LEFT SIDE -->
+
+        <div class="flex flex-col px-8 pt-4">
+
+            <!-- Main heading -->
+            <h1 class="pb-2 text-5xl font-[Bebas_Neue]">
+                <b>Favorite Shows</b>
+            </h1>
+
+            <!-- Sub heading -->
+            <p class="text-2xl font-[Inter]">
+                My personal collection of amazing shows
+            </p>
+
+        </div>
+        <!-- RIGHT SIDE  -->
+        <!-- Navigation buttons -->
+
+        <div class="flex flex-row gap-4 p-6 mt-3">
+
+            <!-- Left arrow button -->
+            <button
+                class="rounded-full border border-gray-200 w-14 h-14 flex items-center justify-center text-3xl backdrop-blur-sm hover:bg-white/10 transition">
+
+                < </button>
+
+                    <!-- Right arrow button -->
+                    <button
+                        class="rounded-full border border-gray-200 w-14 h-14 flex items-center justify-center text-3xl backdrop-blur-sm hover:bg-white/10 transition">
+
+                        >
+
+                    </button>
+
+        </div>
+
+    </div>
+
+    <!-- LOWER SECTION -->
+    <!-- All cards container -->
+    <div class="flex flex-row gap-3 p-8 mx-4">
+        <!-- CARD 1 -->
+
+        <div class="w-80 relative overflow-hidden rounded-xl group cursor-pointer">
+
+            <!-- Movie image -->
+            <img src="./images/172 days.png" class="w-full h-full object-cover">
+
+            <!-- Dark gradient overlay on image -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+            <!-- Text content -->
+            <div class="absolute bottom-0 p-4 text-white">
+
+                <!-- Category -->
+                <p class="tracking-[0.35em]">♥️INDONESIAN FILM</p>
+
+                <!-- Movie title -->
+                <h2 class="text-2xl font-bold font-[Bebas_Neue]">
+                    172 days
+                </h2>
+
+                <!-- Hidden paragraph that appears on hover -->
+                <p
+                    class=" font-[Roboto] text-gray-300 text-base leading-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition duration-300">
+
+                    This movie portrays an ideal husband,if only he were still alive, things would be better.
+
+                </p>
+
+                <!-- Play button -->
+                <button
+                    class=" font-[Montserrat] font-semibold bg-gray-300 text-black rounded-xl mt-3  w-64 ml-3  px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+
+                    Play
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="w-80 relative group rounded-xl cursor-pointer overflow-hidden">
+
+            <!-- Drama image -->
+            <img src="./images/Raqs-e-Bismil.png" class="w-full h-full object-cover">
+
+            <!-- Text section -->
+            <div class="absolute bottom-0 p-4 text-white">
+
+                <!-- Category -->
+                <p class="tracking-[0.35em]">♥️PAKISTANI SERIES</p>
+
+                <!-- Drama title -->
+                <h2 class="text-2xl font-bold font-[Bebas_Neue]">
+                    Raqs-e-Bismil
+                </h2>
+
+                <!-- Hover description -->
+                <p
+                    class="font-[Roboto] text-gray-300 text-base leading-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 translate duration-300">
+
+                    A man in love will fight for her, even if she’s a courtesan.
+
+                </p>
+
+                <!-- Play button -->
+                <button
+                    class="font-[Montserrat] font-semibold mt-3 px-3 rounded py-1 w-64 ml-3 opacity-0 group-hover:opacity-100 translate duration-300 text-black bg-gray-300">
+
+                    Play
+
+                </button>
+
+            </div>
+
+        </div>
+        <!-- CARD 3 -->
+
+        <div class="w-80 relative group rounded-xl overflow-hidden cursor-pointer">
+
+            <!-- Movie image -->
+            <img src="./images/Veer Zara.png" class="w-full h-full object-cover">
+
+            <!-- Content area -->
+            <div class="absolute text-white bottom-0 p-4">
+
+                <!-- Category -->
+                <p class="tracking-[0.35em]">♥️BOLLYWOOD MOVIE</p>
+
+                <!-- Movie title -->
+                <h2 class="text-2xl font-bold font-[Bebas_Neue]">
+                    Veer Zara
+                </h2>
+
+                <!-- Description -->
+                <p
+                    class="font-[Roboto] text-gray-300 text-base leading-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 translate duration-300">
+
+                    This movie demonstrates the power of imagination.
+
+                </p>
+
+                <!-- Play button -->
+                <button
+                    class="font-[Montserrat] font-semibold mt-3 px-3 py-1 w-64 ml-3 rounded text-black bg-gray-300 opacity-0 group-hover:opacity-100 transition duration-300">
+
+                    Play
+
+                </button>
+
+            </div>
+
+        </div>
+        <!-- CARD 4 -->
+
+        <div class="w-80 relative group cursor-pointer rounded-xl overflow-hidden">
+
+            <!-- Movie image -->
+            <img src="./images/image (14).png" class="w-full h-full object-cover">
+
+            <!-- Text content -->
+            <div class="absolute bottom-0 p-4 text-white">
+
+                <!-- Category -->
+                <p class="tracking-[0.35em]">♥️DISNEY MOVIE</p>
+
+                <!-- Movie title -->
+                <h2 class="text-2xl font-bold font-[Bebas_Neue]">
+                    Tarzan
+                </h2>
+
+                <!-- Hover text -->
+                <p
+                    class="font-[Roboto] text-gray-300 text-base leading-6 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 translate duration-300">
+
+                    A lone man in the jungle discovers love in the most unexpected place.
+
+                </p>
+
+                <!-- Play button -->
+                <button
+                    class="font-[Montserrat] font-semibold mt-3 px-3 py-1 w-64 ml-3 opacity-0 rounded group-hover:opacity-100 transition duration-300  text-black bg-gray-300">
+
+                    Play
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- END OF CARDS -->
+
+    </div>
+
+</body>
+
+</html>
